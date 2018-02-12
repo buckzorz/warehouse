@@ -1,16 +1,35 @@
 import React, { Component } from 'react'
+import { Link } from 'react-router-dom'
+import { Navbar, Nav, NavItem, MenuItem, NavDropdown } from 'react-bootstrap'
 
-export default class NavBar extends Component{
+export default class NavigationBar extends Component{
     render(){
         return(
-            <div className="navbar-container">
-                <ul className="navbar-ul">
-                    <li>Home</li>
-                    <li>Tickets</li>
-                    <li>Search Parcel</li>
-                    <li>Login</li>
-                </ul>
-            </div>
+        <Navbar>
+            <Navbar.Header>
+                <Navbar.Brand>
+                    <Link to="/">Warehouse</Link>
+                </Navbar.Brand>
+            </Navbar.Header>
+            <Nav>
+                <NavItem eventKey={1} href="#">
+                <Link to="/handout">Hand out</Link>
+                </NavItem>
+                <NavItem eventKey={1} href="#">
+                <Link to="/parcels">All Parcels</Link>
+                </NavItem>
+                <NavItem eventKey={1} href="#">
+                <Link to="/addpallet">Add pallet</Link>
+                </NavItem>
+                <NavItem eventKey={2} href="#">
+                <Link to="/addparcel">Add parcel</Link>
+                </NavItem>
+                <NavDropdown eventKey={3} title="Issues" id="basic-nav-dropdown">
+                    <MenuItem eventKey={3.1}>Action</MenuItem>
+                    <MenuItem eventKey={3.2}>Another action</MenuItem>
+                </NavDropdown>
+            </Nav>
+        </Navbar>
         )
     }
 }

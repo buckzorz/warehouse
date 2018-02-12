@@ -1,6 +1,7 @@
-body {
-  margin: 0;
-  padding: 0;
-  font-family: 'Fjalla One', sans-serif;
-  background-color: aqua;
+.main-table{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.issue{
+  background-color: red;
 }
