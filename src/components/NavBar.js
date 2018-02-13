@@ -8,21 +8,18 @@ export default class NavigationBar extends Component{
         <Navbar>
             <Navbar.Header>
                 <Navbar.Brand>
-                    <Link to="/">Warehouse</Link>
+                    <Link to="/" className="link-unstyled">Warehouse</Link>
                 </Navbar.Brand>
             </Navbar.Header>
             <Nav>
-                <NavItem eventKey={1} href="#">
-                <Link to="/handout">Hand out</Link>
+                <NavItem eventKey={1}>
+                    <Link to="/handout" className="link-unstyled">Hand out</Link>
                 </NavItem>
-                <NavItem eventKey={1} href="#">
-                <Link to="/parcels">All Parcels</Link>
+                <NavItem eventKey={2}>
+                    <Link to="/addcargo" className="link-unstyled">Add parcel</Link>
                 </NavItem>
-                <NavItem eventKey={1} href="#">
-                <Link to="/addpallet">Add pallet</Link>
-                </NavItem>
-                <NavItem eventKey={2} href="#">
-                <Link to="/addparcel">Add parcel</Link>
+                <NavItem eventKey={1}>
+                    <Link to="/parcels" className="link-unstyled">All Parcels</Link>
                 </NavItem>
                 <NavDropdown eventKey={3} title="Issues" id="basic-nav-dropdown">
                     <MenuItem eventKey={3.1}>Action</MenuItem>

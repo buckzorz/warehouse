@@ -5,3 +5,13 @@
 .issue{
   background-color: red;
 }
+.link-unstyled{
+  text-decoration: 'none';
+  color: 'black';
+}
+.float-right{
+  float: right;
+}
+.margin-top-10{
+  margin-top: 10px
+}

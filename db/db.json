@@ -1,0 +1,46 @@
+{
+    "logins": [
+      {
+        "id": 1,
+        "email": "admin@admin.com",
+        "password": "securepass"
+      },
+      {
+        "id": 2,
+        "email": "test@admin.com",
+        "password": "qwerty"
+      }
+    ],
+    "parcels": [
+      {
+        "id": 2,
+        "firstName": "Liassm",
+        "lastName": "Rodings",
+        "position": "SCEO"
+      },
+      {
+        "id": 3,
+        "firstName": "Mason",
+        "lastName": "Mates",
+        "position": "DEVELOPER"
+      },
+      {
+        "id": 4,
+        "firstName": "Jacob",
+        "lastName": "Ryes",
+        "position": "PARTNER"
+      },
+      {
+        "id": 5,
+        "firstName": "William",
+        "lastName": "Stus",
+        "position": "PARTNER"
+      },
+      {
+        "id": 45,
+        "firstName": "Liam",
+        "lastName": "Rodings",
+        "position": "SCEO"
+      }
+    ]
+  }

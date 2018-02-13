@@ -1,10 +1,9 @@
 import React, { Component } from 'react';
 import './App.css';
-import WarehouseAddType from './components/WarehouseAddType'
 import NavigationBar from './components/NavBar'
 import { Switch, Route } from 'react-router-dom'
-import BulkAdd from './components/BulkAdd'
 import PackageList from './components/PackageList'
+import AddCargo from './components/AddCargo'
 
 class App extends Component {
   render() {
@@ -12,8 +11,7 @@ class App extends Component {
       <div>
         <NavigationBar />
         <Switch>
-          <Route exact path="/addpallet"/>
-          <Route exact path="/addparcel"/>
+          <Route exact path="/addcargo" component={AddCargo}/>
           <Route exact path="/parcels" component={PackageList}/>>
           <Route path="/parcels/:id"/>
           <Route exact path="/handout" />
