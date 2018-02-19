@@ -1,3 +1,5 @@
 export default {
-    parcels: []
+    parcels: [],
+    warehouse: [],
+    fetchingParcels: false
 }

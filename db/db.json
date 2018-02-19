@@ -1,46 +1,66 @@
 {
-    "logins": [
-      {
-        "id": 1,
-        "email": "admin@admin.com",
-        "password": "securepass"
-      },
-      {
-        "id": 2,
-        "email": "test@admin.com",
-        "password": "qwerty"
-      }
-    ],
-    "parcels": [
-      {
-        "id": 2,
-        "firstName": "Liassm",
-        "lastName": "Rodings",
-        "position": "SCEO"
-      },
-      {
-        "id": 3,
-        "firstName": "Mason",
-        "lastName": "Mates",
-        "position": "DEVELOPER"
-      },
-      {
-        "id": 4,
-        "firstName": "Jacob",
-        "lastName": "Ryes",
-        "position": "PARTNER"
-      },
-      {
-        "id": 5,
-        "firstName": "William",
-        "lastName": "Stus",
-        "position": "PARTNER"
-      },
-      {
-        "id": 45,
-        "firstName": "Liam",
-        "lastName": "Rodings",
-        "position": "SCEO"
-      }
-    ]
-  }
+  "parcels": [
+    {
+      "id": "qpj5q",
+      "senderName": "Liassm Madlo",
+      "senderPhone": "91774",
+      "recieverName": "Aloh Gaber",
+      "recieverPhone": "82285",
+      "weight": 2.64,
+      "dateShipped": "2018-12-01",
+      "content": "parts"
+    },
+    {
+      "id": "ze7fe",
+      "senderName": "Bart Rodings",
+      "senderPhone": "42451",
+      "recieverName": "Rabea Asdola",
+      "recieverPhone": "75789",
+      "weight": 3.31,
+      "dateShipped": "2018-01-21",
+      "content": "cosmetics"
+    },
+    {
+      "id": "7605f",
+      "senderName": "Ian Borton",
+      "senderPhone": "82459",
+      "recieverName": "Navie Mardo",
+      "recieverPhone": "60629",
+      "weight": 0.85,
+      "dateShipped": "2018-01-13",
+      "content": "clothing"
+    },
+    {
+      "id": "s3m0e",
+      "senderName": "Wasi Mashi",
+      "senderPhone": "74762",
+      "recieverName": "Nova Bolla",
+      "recieverPhone": "28293",
+      "weight": 5.54,
+      "dateShipped": "2018-01-09",
+      "content": "phone"
+    },
+    {
+      "id": "trsx2",
+      "senderName": "Maboc Ragosh",
+      "senderPhone": "91128",
+      "recieverName": "Seed Macky",
+      "recieverPhone": "30387",
+      "weight": 10,
+      "dateShipped": "2018-01-10",
+      "content": "bicycle parts"
+    }
+  ],
+  "warehouse": [
+    {
+      "id": "trsx2",
+      "senderName": "Maboc Ragosh",
+      "senderPhone": "91128",
+      "recieverName": "Seed Macky",
+      "recieverPhone": "30387",
+      "weight": 10,
+      "dateShipped": "2018-01-10",
+      "content": "bicycle parts"
+    }
+  ]
+}
